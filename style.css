@@ -13,7 +13,8 @@ h1 {
   color: #cd5c5c;
 }
 
-h2 {
+h2,
+h3 {
   font-size: 40px;
   font-family: "Urbanist", sans-serif;
   font-weight: bold;
@@ -22,12 +23,9 @@ h2 {
 }
 
 h3 {
-  font-family: "Urbanist", sans-serif;
-  font-size: 40px;
   font-weight: 600;
   text-align: center;
   margin: 0;
-  color: #696969;
 }
 
 .about,
@@ -39,9 +37,9 @@ h3 {
   background-color: #ebebeb;
 }
 
-.paticka {
+.footer {
   text-align: center;
-  background-color: darkgray;
+  background-color: #A9A9A9;
   font-weight: 400;
   padding: 20px 0;
 }
@@ -74,31 +72,31 @@ header {
   margin: 0;
   padding: 0;
   text-align: center;
-  background-color: darkgrey;
+  background-color: 	#A9A9A9;
 }
 
 .menu a {
   display: inline-block;
   color: white;
   text-decoration: none;
-  font-size: 27px; 
+  font-size: 27px;
   padding: 20px 30px;
 }
 
 .menu a:hover,
 .menu a:focus,
 .menu a:active {
-    background-color: salmon;
+  background-color: #fa8072;
 }
 
 table {
-    border-spacing: 0;
-    width: 750px;
+  border-spacing: 0;
+  width: 750px;
 }
 
 th,
 td {
-    text-align: left;
-    border-bottom: 1px solid grey;
-    padding: 20px 0;
+  text-align: left;
+  border-bottom: 1px solid #808080;
+  padding: 20px 0;
 }
